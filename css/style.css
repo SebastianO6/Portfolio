@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+:root {
+    --header-font: "Oswald", serif;
+    --body-font: "Roboto" , serif;
+    --Head-colors: rgb(3, 0, 0);
+    --body-colors: white;
+}
+    
+body {
+    background-image: url(../assets/images/fotis-fotopoulos-SyvsTmuuZyM-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+
+}
+
+.logo {
+    display: flex;
+    font-size: 50px;
+    font-family: var(--header-font);
+    width: 20%;
+    text-align: center;
+    color:var(--body-colors);
+    text-shadow: 0 0 30px orangered,
+                 0 0 50px orangered;  
+                
+}
+
+.Heading {
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px;
+    gap: 50px;
+    background: orangered;
+}
+
+.pt {
+    color: black;
+
+    &:hover {
+        color: var(--body-colors);
+    }
+}
+
+.menu a {
+    color: var(--body-colors);
+    text-decoration: none;
+
+    &:hover {
+        color: black;
+    }
+}
+
+.info {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    background: orangered;
+    padding: 20px;
+}
+
+.name {
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    color: var(--body-colors);
+}
+
+#story {
+    color: rgb(0, 0, 0);
+}
+
+.title {
+    color: white;
+    text-shadow: 0 0 30px rgb(255, 255, 255),
+                 0 0 50px rgb(255, 255, 255); 
+}
+
+.info img {
+    height: 300px;
+    width: 200px;
+}
+
+.hire {
+    display: flex;
+    justify-content: center;
+}
+
+.hire button {
+    background-color: rgb(243, 77, 0);
+    width: fit-content;
+    height: 35px;
+    width: 100px;
+    border-radius: 8px;
+    margin: none;
+    border: 0;
+
+    &:hover {
+        background-color: rgb(219, 1, 1);
+        color: rgb(0, 0, 0);
+    }
+
+}
+.hire a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: var(--body-font);
+}
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-instagram {
+    color: rgb(108, 189, 3);
+    padding: 20px;
+
+    &:hover {
+        color: red;
+    }
+}
+
+.fa-tiktok {
+    color: rgb(39, 38, 38);
+    padding: 20px;
+    &:hover {
+        color: rgb(255, 255, 255);
+    }
+}
+
+
+.fa-snapchat {
+    color: yellow;
+    padding: 20px;
+
+    &:hover {
+        color: rgb(53, 255, 12);
+    }
+}
+
+
